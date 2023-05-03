@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Edu TAS Beginner", sans-serif;
+    background: #F3F3F5;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/work";
+@import "blocks/services";
+@import "blocks/about";
+@import "blocks/contacts";
+@import "blocks/footer";

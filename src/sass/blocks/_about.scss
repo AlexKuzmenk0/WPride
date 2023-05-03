@@ -1,0 +1,70 @@
+.about{
+    margin-top: 180px;
+    &__block{
+        background: url(../img/BG.png) 0 0/100% auto no-repeat;
+        padding: 156px 44px 0 88px;
+        h2{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            color: #000000;
+            background: none;
+            margin-top: -84px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 265;
+            font-size: 64px;
+            line-height: 92px;
+            color: #5e4141;
+            background: none;
+            span{
+                background: none;
+                color: #000000;
+                font-weight: 900;
+            }
+        }
+        &__f, &__s, &__i, &__tittle, h3{
+            background: none;
+        }
+        &__f, &__s{
+            position: relative;
+            padding-left: 600px;
+            h3{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 92px;
+                color: #000000;
+                margin: 0;
+            }
+            p{
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 23px;
+                color: #000000;
+                margin: 0;
+            }
+        }
+        &__i{
+            margin-top: -200px;
+            width: 0;
+            height: 0;
+        }
+        &__tittle{
+            font-style: normal;
+            font-weight: 265;
+            font-size: 64px;
+            line-height: 92px;
+            color: #000000;
+            padding: 340px 0 0 600px;
+            
+            span{
+                color: rgba(239, 66, 66, 1);
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.services{
+    &__h3{
+        position: relative;
+        margin: 0;
+        top: -90px;
+        left: 55px;
+        background: unset;
+        font-family: 'TT Firs Neue';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+        
+    }
+    &__p{       
+        p{
+            font-family: 'TT Firs Neue';
+            margin: 0;
+            margin-top: 58px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 274px;
+            line-height: 353px;
+            text-align: center;
+            opacity: 0.05;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 0.01em;
+        }
+    }
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -40px;
+        h2{
+            margin: 0;
+            font-style: normal;
+            font-weight: 265;
+            font-size: 64px;
+            line-height: 92px;
+            color: #000000;
+
+            span{
+                color: #EF4242;
+            }
+        }
+        &__img{
+            margin-top: 85px;
+        }
+
+    }
+}

@@ -1,0 +1,148 @@
+.work {
+    &__p {
+        margin-top: 130px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &__title {
+        margin-top: 30px;
+
+        p {
+            margin: 0;
+            font-family: 'TT Firs Neue';
+            font-style: normal;
+            font-weight: 265;
+            font-size: 64px;
+            line-height: 92px;
+        }
+
+        span {
+            font-family: 'TT Firs Neue';
+            font-style: normal;
+            font-weight: 265;
+            font-size: 64px;
+            line-height: 92px;
+            color: rgba(239, 66, 66, 1);
+        }
+    }
+
+    &__mouse {
+        position: relative;
+        display: block;
+        left: 67%;
+        width: 0px;
+        height: 0px;
+        bottom: 180px;
+    }
+
+    &__subtitle {
+        padding-top: 63px;
+        font-style: normal;
+        font-weight: 265;
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    &__scroll {
+        margin-top: 60px;
+
+        img {
+            float: right;
+        }
+    }
+
+    &__line {
+        width: 1px;
+        height: 78px;
+        background: #000;
+        margin: 96px 0 0 227px;
+    }
+
+    &__project{
+        margin-top: 45px;
+        &__f{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            h2{
+                font-weight: 300;
+                font-size: 64px;
+                line-height: 83px;
+                color: #000000;
+            }
+            p{
+                font-weight: 265;
+                font-size: 24px;
+                line-height: 42px;
+                color: #000000;
+                margin-top: 50px;
+            }
+            &__nike{
+                margin-top: 78px;
+            }
+            &__scroll{
+                background: red;
+            }
+        }
+        &__st{
+            display: flex;
+        }
+        &__t{
+            margin: 60px 0 0 20px;
+            img{
+                margin-top: 50px;
+            }
+            h2{
+                font-weight: 300;
+                font-size: 64px;
+                line-height: 83px;
+                color: #000000;
+            }
+        }
+        &__s{
+            h2 {
+                font-weight: 300;
+                font-size: 64px;
+                line-height: 83px;
+                color: #000000;
+                }
+        }
+        &__items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 71px;
+            padding-right: 45px;
+            &__1{
+                button{
+                    color: #EF4242;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 62px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+            &__2{
+                margin-left: 86px;
+                padding-top: 10px;
+                button{
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 48px;
+                    line-height: 62px;
+                    color: #000000;
+                    border: none;
+                    padding-left: 32px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}

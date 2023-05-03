@@ -1,0 +1,14 @@
+.footer{
+    &__infor{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 125px;
+    }
+    p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000;
+    }
+}
